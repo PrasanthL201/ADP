@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h4><center>Application</center></h4>
+        <form>
+            <label>Name: </label>
+            <input type="text">
+            <br><br>
+            <label>Father's Name: </label>
+            <input type="text">
+            <br><br>
+            <label>Mother's Name: </label>
+            <input type="text">
+            <br><br>
+            <label>Address: </label>
+            <textarea></textarea>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <label>DOB: </label>
+            <input type="date">
+            <br><br>
+            <label>Phone Number: </label>
+            <input type="tel" pattern="[0,9]{10}">
+            <br><br>
+            <label>Email: </label>
+            <input type="email">
+            <br><br>
+            <label>Passport Pic: </label>
+            <input type="image">
+            <br><br>
+            <label>Alternate Number: </label>
+            <input type="tel" pattern="[0,9]{10}">
+            <br><br>
+            <label>Gender: </label>
+            <input type="radio" name="gender">
+            <label>Female</label>
+            <input type="radio" name="gender">
+            <label>Male</label>
+            <br><br>
+            <table>
+                <tr>
+                <td><label>Course: </label></td>
+                <td><input type="checkbox"></td>
+                <td><label>HTML</label></td>
+                </tr>
+                <tr>
+                <td></td>
+                <td><input type="checkbox"></td>
+                <td><label>JAVA</label></td>
+                </tr>
+                <tr>
+                <td></td>
+                <td><input type="checkbox"></td>
+                <td><label>PYTHON</label></td>
+                </tr>
+            </table>
+            <br><br>
+            <label>Department: </label>
+            <input list="dep">
+            <datalist id="dep">
+                <option value="ECE"></option>
+                <option>CSE</option>
+                <option value="EEE"></option>
+                <option value="Mech"></option>
+                <option value="Civil"></option>
+                <option value="IT"></option>
+            </datalist><br><br>
+            <label>Favourite Colour: </label>
+            <input type="color">
+            <br><br>
+            <label>Known language :</label>
+            <input type="checkbox">
+            <label>Tamil</label>
+            <input type="checkbox">
+            <label>English</label>
+            <input type="checkbox">
+            <label>Malayalam</label>
+            <input type="checkbox">
+            <label>Others</label>
+            <br><br>
+            <label>Height: </label>
+            <input type="range" min="0" max="300">
+            <br><br>
+            <label>Certificate: </label>
+            <input type="file">
+            <br><br>
+            <input type="submit">
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="reset">
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="button" value="Ok">
+        </form>
+        <style>
+            body{
+                background-color:lightgreen;
+            }
+            input{
+                background-color: lightblue;
+            }
+            textarea{
+                background-color: lightblue;
+            }
+        </style>
+    </body>
+</html>
